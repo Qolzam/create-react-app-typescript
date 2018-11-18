@@ -512,6 +512,7 @@ module.exports = {
       async: false,
       tsconfig: paths.appTsProdConfig,
       tslint: paths.appTsLint,
+      memoryLimit: 4024
     }),
     // Generate a service worker script that will precache, and keep up to date,
     // the HTML & assets that are part of the Webpack build.
